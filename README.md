@@ -1,2 +1,2 @@
 # COVID19_SHOPPING_POINT
- 
+ “COVID-19 SHOPPING POINT” is a web-based online shopping system. The main objectives of this project are to deliver the necessary goods and also to relief the necessary goods to the poor people. This project is attempt to provide the advantage of online shopping to the customers as real shop. It helps buying the products from anywhere through internet by using any internet capable device. Thus, the customer will get the service of online shopping and home delivery from this favorite shop.
