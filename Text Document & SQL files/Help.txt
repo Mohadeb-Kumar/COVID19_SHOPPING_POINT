@@ -1,0 +1,93 @@
+http://localhost/My_Projects/COVID19_SHOPPING_POINT/index.php
+http://localhost/My_Projects/COVID19_SHOPPING_POINT/charge_shop_now.php
+http://localhost/My_Projects/COVID19_SHOPPING_POINT/admin/index.php
+
+http://localhost/My_Projects/COVID19_SHOPPING_POINT/interface_page.php
+
+http://localhost/phpmyadmin/
+
+
+No	ProductName	Price	Quantity	TotalPrice 
+
+
+No	ProductName	Quantity	Remove
+
+
+Admin:
+AID NAME Username(EMAIL) PASSWORD
+
+Charge Customer:
+NAME PHONE ADDRESS PASSWORD
+
+
+
+"<h3 class='wlc_text'>Welcome {$_SESSION["ANAME"]}</h3>
+
+<li><a href="logout.php">Logout</a></li>";
+
+
+Current Order
+
+NO NAME PHONE PRODUCSTS-QUANTITY
+
+
+#5f846c
+--------------------------------------------------------------------------
+
+NAME
+PHONE DIVISION
+DISTRIC UPOZELA
+STREET-ADDRESS
+APARTMENT/BLOCK/HOUSE(OPTIONAL)
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------Charge Customer Details---------------------------------------
+charge_customer_Registration:
+`````````````````````````````
+REG_NAME   REG_PHONE   ADDRESS   PASSWORD
+
+charge_customer_order:
+``````````````````````
+REG_NAME   REG_PHONE   PRODUCT_NAME   PRICE   QUANTITY   UNIT   TOTAL_PRICE
+
+charge_customer_order_location:
+```````````````````````````````
+REG_NAME   REG_PHONE   ODR_NAME   ODR_PHONE   DIVISION   DISTRICT   UPOZILA   STREET_ADDRESS   APARTMENT
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO test_table(TEST_TIME)
+VALUES(CURTIME());
+
+
+
+
+Full Name
+Gender
+Oqupation
+Phone No
+Adress
+Password
+
+
+
+
+

@@ -1,0 +1,197 @@
+...................COVID-19_SHOPPING_POINT.....................
+
+
+
+
+.......................................................................CREATE................
+CREATE DATABASE covid19_shopping_point;
+
+
+
+
+
+CREATE TABLE admin(
+    AID varchar(10),
+    ANAME varchar(100),
+    EMAIL varchar(100),
+    PASSWORD varchar(50),
+
+    PRIMARY KEY(AID)
+    );
+
+
+
+CREATE TABLE charge_customer(
+    
+    NAME varchar(100),
+    PHONE varchar(20),
+    ADDRESS varchar(200),
+    PASSWORD varchar(50),
+    
+    PRIMARY KEY(PHONE)
+    
+    )
+
+
+
+CREATE TABLE applications( NAME varchar(100), GENDER varchar(20), FATHER varchar(100), MOTHER varchar(100), PHONE varchar(20), FMEMBER int(10), DIVISON varchar(100), DISTRICT varchar(100), UPOZILA varchar(100), SREET varchar(200), APARTMENT varchar(200), CHAIRPHONE varchar(20), CVCIMAGE varchar(200), NEIPHONE1 varchar(20), NEIPHONE2 varchar(20), NEIPHONE3 varchar(20), PRIMARY KEY(PHONE) )
+
+
+
+
+CREATE TABLE charge_customer_Order(
+    
+    NAME varchar(100),
+    PHONE varchar(20),
+    PRODUCT_NAME varchar(200),
+    PRICE double,
+    QUANTITY double,
+    UNIT varchar(50),
+    TOTAL_PRICE double(8,2)
+    
+    )
+
+
+CREATE TABLE charge_customer_order_list(
+    NAME varchar(1000),
+    TOTAL_PRODUCTS int(5),
+    ADDRESS varchar(200)
+    
+    
+    );
+
+
+CREATE TABLE charge_customer_order_location(
+    REG_NAME   varchar(100),
+    REG_PHONE  varchar(20),
+    ODR_NAME   varchar(100),
+    ODR_PHONE   varchar(20),
+    DIVISION   varchar(100),
+    DISTRICT   varchar(100),
+    UPOZILA   varchar(100),
+    STREET_ADDRESS   varchar(200),
+    APARTMENT	varchar(200),
+    ODR_TIME time,
+    ODR_DATE date
+    
+    
+    );
+
+
+CREATE TABLE charge_order_customer_list(
+    
+    REG_NAME varchar(100),
+    REG_PHONE varchar(20),
+    ODR_NAME varchar(100),
+    TOTAL_ODR_PRODUCT int,
+    ODR_DATE date
+    
+    
+    
+    );
+
+
+CREATE TABLE removable_customer_order(
+    
+    REG_NAME varchar(100),
+    REG_PHONE varchar(20),
+    PRODUCT_NAME varchar(200),
+    QUANTITY double,
+    UNIT varchar(50)
+    
+    )
+
+
+CREATE TABLE products(
+    
+    PID INT AUTO_INCREMENT,
+    PNAME varchar(2000),
+    PIMAGE varchar(200),
+    PPRICE double,
+  	PRIMARY KEY (PID)  
+    );
+
+
+
+...............................................................................INSERT................
+INSERT INTO admin(AID, ANAME, EMAIL, PASSWORD)
+VALUES
+('A101', 'Mohadeb Kumar', 'mohadeb.cse@gmail.com', '123');
+
+
+INSERT INTO admin(AID, ANAME, EMAIL, PASSWORD)
+VALUES
+('A102', 'Priya Rani', 'priyarani@gmail.com', '123');
+
+..................................................................................DROP................
+DROP TABLE admin;
+ALTER TABLE charge_customer_order
+DROP ODR_TIME,
+DROP ODR_DATE;
+
+.....................................................................................RENAME................
+RENAME TABLE charge_customer TO charge_customer_reg;
+
+..................................................................................ALTER+CHANGE................
+ALTER TABLE charge_customer_reg
+CHANGE NAME REG_NAME varchar(100),
+CHANGE PHONE REG_PHONE varchar(20);
+
+
+ALTER TABLE charge_customer_order
+CHANGE NAME REG_NAME varchar(100),
+CHANGE PHONE REG_PHONE varchar(20);
+
+
+ALTER TABLE charge_customer_order_location
+ADD COLUMN ODR_TIME time;
+
+ALTER TABLE charge_customer_order_location
+ADD COLUMN ODR_DATE date;
+
+ALTER TABLE charge_order_customer_list
+ADD COLUMN PRICED varchar(10);
+........................................................................................DELETE...............
+DELETE FROM charge_customer_order;
+
+..........................................................................................UPDATE................
+UPDATE charge_order_customer_list
+SET PRICED='NO';
+
+......................Create 'shop_covid19' Database................
+
+......................Create 'shop_covid19' Database................
+
+......................Create 'shop_covid19' Database................
+
+......................Create 'shop_covid19' Database................
+
+
+
+
+
+
+
+
+NAME=name
+GENDER=gender
+FATHER=father
+MOTHER=mother
+PHONE=phone
+FMEMBER=fmember
+DIVISON=division
+DISTRICT=district
+UPOZILA=upozila
+SREET=street
+APARTMENT=apartment
+CHAIRPHONE=chairphone
+CVCIMAGE=cvcimage
+NEIPHONE1=nphone1
+NEIPHONE2=nphone2
+NEIPHONE3=nphone3
+
+
+
+
+
+
