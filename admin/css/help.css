@@ -1,0 +1,340 @@
+
+html{
+	background:#dddddd;
+}
+
+.back{
+	background:#f5f5f5cf;
+	width:1250px;
+	margin:0 auto; /*Center align*/
+	margin-top:5px;
+	
+}
+/*.......................index.php page style.................*/
+.banner_div{
+	height: 509px;
+    width: 1250px;
+    background: url(imgs/banner4.jpg)no-repeat;
+    margin-top: 5px
+		
+}
+
+
+.charge_order_btn a {
+    background: #c43b68 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 49px;
+    padding: 0 92px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    margin-top: 453px;
+    margin-left: 148px;
+    opacity: 0.7;
+    border-radius: 18px;
+}
+.charge_order_btn a:hover {
+    background:#313131  none repeat scroll 0 0;
+}
+
+
+.relief__order_btn a {
+    float: left;
+    background: #c43b68 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 49px;
+    padding: 0 92px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    margin-top: -51px;
+    margin-left: 783px;
+    opacity: 0.7;
+    border-radius: 18px;
+}
+.relief__order_btn a:hover {
+    background:#313131  none repeat scroll 0 0;
+}
+
+/*.......................topbar.inc.php page style.................*/
+.topbar{
+	height:60px;
+	width:100%;
+	background:#ffffff
+}
+
+a{
+	text-decoration:none; /*Removing text Underline*/
+}
+
+.list{
+
+	list-style:none; /*Removing bulet or digit style*/
+	
+	margin:0px;
+	padding:0px;
+}
+
+.list li{
+	/*display:inline;*/ /*Arranging text in one line*/
+	float:left;
+	width:130px;
+	height:60px;
+	background-color:#ffffff;
+	/*border-right:1px solid #2B2A2A;*/
+	text-align:center; /*Taking text at the right side*/
+	
+	
+}
+
+.list li:last-child{
+	border-right:none; /*Removing last list boder solid*/
+}
+
+.list li a{
+	font-size:20px;
+	font-weight:bold;
+	color:#3928c5; /*link color*/
+	line-height:57px;
+	/*padding:13px 30px 14px 14px;*/
+}
+
+.list li a:hover{
+	background-color:#10a50ddb;
+	
+}
+
+.list li ul li{
+	display:none;
+}
+.list li:hover ul li{
+	margin-left:-40px;
+	display:block;
+}
+
+.logo{
+	float:left;
+	margin-left: 175px;
+}
+
+
+/*.......................footer.inc.php page style.................*/
+.footer{
+	height:280px;
+	width:100%;
+	background:#111111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+	background:#dddddd;
+}
+
+.back{
+	background:#f5f5f5cf;
+	width:1250px;
+	margin:0 auto; /*Center align*/
+	margin-top:5px;
+	
+}
+
+
+
+/*.......................topbar.inc.php page style.................*/
+.topbar{
+	height:50px;
+	width:100%;
+	background:#12b30fdb;
+}
+
+a{
+	text-decoration:none; /*Removing text Underline*/
+}
+
+.list{
+
+list-style:none; /*to remove list bulet or digit order*/
+	margin:0px; 
+	padding:0px;
+}
+
+.list li{
+	float:left; /*Taking list to the left side*/
+	width:206px;
+	height:40px;
+	background-color:#4b7305; /*to set color of ul list*/
+	opacity:0.8;
+	
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+	margin-right:2px;
+	
+	
+}
+
+
+.topbar .list li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+.topbar .list li a:hover{
+background-color:black
+	
+}
+
+.topbar .list li ul li{
+	display:none;
+}
+.topbar .list li:hover ul li{
+	display:block;
+	margin-left:-50px;
+}
+
+
+/*.......................footer.inc.php page style.................*/
+.footer{
+	height:280px;
+	width:100%;
+	background:#111111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+	background:#dddddd;
+}
+
+.back{
+	background:#f5f5f5cf;
+	width:1250px;
+	margin:0 auto; /*Center align*/
+	margin-top:5px;
+	
+}
+
+
+
+/*.......................topbar.inc.php page style.................*/
+.topbar{
+	height:50px;
+	width:100%;
+	background:#12b30fdb;
+}
+
+a{
+	text-decoration:none; /*Removing text Underline*/
+}
+
+.list{
+
+	list-style:none; /*Removing bulet or digit style*/
+	text-align:right; /*Taking text at the right side*/
+}
+
+.list li{
+	display:inline; /*Arranging text in one line*/
+	border-right:1px solid #2B2A2A;
+	
+	
+}
+
+.list li:last-child{
+	border-right:none; /*Removing last list boder solid*/
+}
+
+.list li a{
+	font-size:20px;
+	font-weight:bold;
+	color:white; /*link color*/
+	line-height:48px;
+	padding:13px 30px 14px 14px;
+}
+
+.list li a:hover{
+	background-color:#10a50ddb;
+	margin-left:2px;
+	border-radius:8px;
+	
+}
+
+.list li ul li{
+	display:none;
+}
+.list li:hover ul li{
+	display:block;
+}
+
+
+/*.......................footer.inc.php page style.................*/
+.footer{
+	height:280px;
+	width:100%;
+	background:#111111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

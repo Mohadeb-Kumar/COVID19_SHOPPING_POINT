@@ -1,0 +1,546 @@
+
+html{
+	background:#dddddd;
+}
+
+.back{
+	background:#f5f5f5cf;
+	width:1250px;
+	margin:0 auto; /*Center align*/
+	margin-top:5px;
+	
+}
+
+tr,td,th{
+	padding:10px;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+
+table caption{
+	font-size: 23px;
+    font-weight: bold;
+    color: #56bb17;
+    margin-top: -21px;
+    margin-bottom: 5px;
+}
+
+.success{
+	background:green;
+	color:white;
+	line-height:30px;
+	border-radius:5px;
+	height:30px;
+	
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.error{
+	background:#ff1515;
+	color:white;
+	line-height:30px;
+	border-radius:5px;
+	height:30px;
+	
+	text-align:center;
+	margin-bottom:10px;
+}
+
+/*.......................charge_shop_now.php page style.................*/
+.input4{
+	width: 355px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 4px;
+    background: #72f5d7;
+    opacity: 0.7;
+    border-radius: 6px;
+}
+
+
+.option_in{
+    width: 153px;
+    height: 44px;
+    margin-top: 5px;
+    margin-left: 4px;
+    background: #72f5d7;
+    opacity: 0.7;
+    border-radius: 6px;
+}
+
+.added_product_div{
+	width: 803px;
+    /* height: 153px; */
+    margin-left: 324px;
+    margin-top: -666px;
+}
+
+
+
+.charge_customer_order_div{
+    float: left;
+    width: 535px;
+    height: 362px;
+    /* margin: 0 auto; */
+    background: #1a926b;
+    margin-top: 23px;
+    margin-left: 30px;
+    opacity: 0.95;
+    border-radius: 12px;
+    box-shadow: 0 8px 17px 18px rgba(0, 0, 0, 0.2), -5px -20px 20px 16px rgb(212 168 168 / 19%);
+}
+
+
+.btnRemove{
+	border-radius:5px;
+	padding:5px;
+	background:#ff0000;
+	color:white;
+}
+
+.btnRemove:hover{
+	background:#ff5e5e;
+}
+
+.confirme_order {
+    width: 608px;
+    height: 47px;
+    margin-top: 5px;
+    /* margin-left: 0px; */
+    background: #259772;
+    opacity: 0.7;
+    border-radius: 6px;
+    color: white;
+}
+
+.confirme_order:hover{
+	background:#1c7558;
+}
+
+
+.add_product_btn{
+	width: 523px;
+    height: 47px;
+    margin-top: 5px;
+    margin-left: 6px;
+    background:#5c54ca;
+    opacity: 0.7;
+	border-radius: 6px;
+	color:white;
+}
+
+.add_product_btn:hover{
+	background:#1100a2;
+}
+
+/*.......................charge_customer_reg.php page style.................*/
+.charge_customer_back_div{
+	width: 100%;
+    height: 580px;
+    /* margin-left: 366px; */
+    background: url(imgs/background.png)no-repeat;
+    background-size: 100% 100%;
+    margin-top:5px;
+}
+.charge_customer_reg_div{
+	width: 535px;
+    height: 495px;
+    margin:0 auto;
+    /*background: url(imgs/2644.jpg)no-repeat;
+    background-size: 533px 528px;*/
+	background:#000612;
+    /*margin-top: 30px;*/
+	opacity: 0.95;
+	border-radius: 12px;
+	box-shadow:0 8px 17px 18px rgba(0, 0, 0, 0.2), -5px -20px 20px 16px rgb(212 168 168 / 19%);
+}
+
+.customer_log_div{
+	width: 535px;
+    height: 355px;
+    margin:0 auto;
+    /*background: url(imgs/2644.jpg)no-repeat;
+    background-size: 533px 528px;*/
+	background:#000612;
+    margin-top: 93px;
+	opacity: 0.8;
+	border-radius: 12px;
+	box-shadow:0 8px 17px 18px rgba(0, 0, 0, 0.2), -5px -20px 20px 16px rgb(212 168 168 / 19%);
+}
+
+.charge_reg_h2{
+	color: #3fff83;
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.reg_lable{
+	color: white;
+    margin-left: 8px;
+}
+
+.input3{
+    width: 517px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 4px;
+    background: #72f5d7;
+    opacity: 0.7;
+	border-radius: 6px;
+}
+
+.reg_btn{
+	width: 523px;
+    height: 47px;
+    margin-top: 5px;
+    margin-left: 6px;
+    background:#281dc5;
+    opacity: 0.7;
+	border-radius: 6px;
+	color:white;
+}
+
+.reg_btn:hover{
+	background:#92ec19;
+	color:black;
+}
+
+
+/*.......................index.php page style.................*/
+.wlc_text{
+    color: #11ca42;
+    font-size: 39px;
+    /* text-align: center; */
+    float: left;
+    margin-top: 7px;
+    margin-left: 65px;
+}
+
+.banner_div{
+	height: 526px;
+    width: 1250px;
+    background: url(imgs/background.png)no-repeat;
+	background-size: 1250px 522px;
+    margin-top: 5px
+		
+}
+
+
+.admin_interface{
+	float:left;
+    background: #c43b68 none repeat scroll 0 0;
+    /* color: #fff; */
+    /* display: inline-block; */
+    /* font-family: Poppins; */
+    font-size: 30px;
+    /* font-weight: 400; */
+    height: 235px;
+    width: 198px;
+    line-height: 235px;
+    padding: 0 92px;
+    /* text-transform: capitalize; */
+    transition: all 0.3s ease 0s;
+    /* margin-top: 140px; */
+    margin-left: 148px;
+    opacity: 0.7;
+    border-radius: 18px;
+}
+
+.admin_interface a{
+	float:left;
+    background: #c43b68 none repeat scroll 0 0;
+    /* color: #fff; */
+    /* display: inline-block; */
+    /* font-family: Poppins; */
+    font-size: 30px;
+    /* font-weight: 400; */
+    height: 235px;
+    width: 198px;
+    line-height: 235px;
+    padding: 0 92px;
+    /* text-transform: capitalize; */
+    transition: all 0.3s ease 0s;
+    /* margin-top: 140px; */
+    margin-left: -92px;
+    opacity: 0.7;
+    border-radius: 18px;
+}
+.admin_interface a:hover {
+    background:#281dc5  none repeat scroll 0 0;
+}
+
+
+.user_interface{
+    background: #c43b68 none repeat scroll 0 0;
+    /* color: #fff; */
+    /* display: inline-block; */
+    /* font-family: Poppins; */
+    font-size: 30px;
+    /* font-weight: 400; */
+    height: 235px;
+    width: 198px;
+    line-height: 235px;
+    padding: 0 92px;
+    /* text-transform: capitalize; */
+    transition: all 0.3s ease 0s;
+    /* margin-top: 140px; */
+    margin-left: 715px;
+    opacity: 0.7;
+    border-radius: 18px;
+}
+
+.user_interface:hover {
+    background:#281dc5  none repeat scroll 0 0;
+}
+
+/*.......................topbar.inc.php page style.................*/
+.topbar{
+	height:60px;
+	width:100%;
+	background:#ffffff;
+	margin-bottom:5px;
+	
+}
+
+a{
+	text-decoration:none; /*Removing text Underline*/
+}
+
+.list{
+
+	list-style:none; /*Removing bulet or digit style*/
+	
+	margin:0px;
+	padding:0px;
+}
+
+.list li{
+	/*display:inline;*/ /*Arranging text in one line*/
+	float:left;
+	width:130px;
+	height:60px;
+	background-color:#ffffff;
+	/*border-right:1px solid #2B2A2A;*/
+	text-align:center; /*Taking text at the right side*/
+	
+	
+}
+
+.list li:last-child{
+	border-right:none; /*Removing last list boder solid*/
+}
+
+.list li a{
+	font-size:20px;
+	font-weight:bold;
+	color:#3928c5; /*link color*/
+	line-height:57px;
+	/*padding:13px 30px 14px 14px;*/
+}
+
+.list li a:hover{
+	background-color:#10a50ddb;
+	
+}
+
+.list li ul li{
+	display:none;
+}
+.list li:hover ul li{
+	margin-left:-40px;
+	display:block;
+}
+
+.logo{
+	float:left;
+	margin-left: 175px;
+}
+
+
+/*.......................footer.inc.php page style.................*/
+.footer{
+	height:100px;
+	width:100%;
+	background:#111111;
+}
+.footer_text{
+    color: #11ca42;
+    font-size: 28px;
+    float: left;
+    margin-left: 138px;
+	text-align:center;
+}
+
+/*..........................sidebar.inc.php page CSS...........................*/
+.h3_text{
+	font-family: Roboto;
+    color: #3f51b5;
+	text-align:center;
+}
+.sidebar{
+	width:200px;
+	height:auto;
+	background:white;
+}
+
+.sideber_li{
+	list-style:none;
+	margin-left:-40px;
+}
+
+.li{
+	position:relative;
+	display:block;
+	padding:20px 30px;
+	margin-bottom:-1px;
+	background-color:#ffffff;
+	border:1px solid #ecf0f1;
+}
+
+
+
+/*..........................add_product.php page CSS...........................*/
+.add_marks_div1{
+    width: 850px;
+    /*margin-left: -212px;*/
+    float: left;
+}
+
+.add_marks_lebel1{
+    /*margin-left: 242px;*/
+    margin-top: -16px;
+    float: left;
+}
+
+
+.add_marks_lebel3{
+    margin-top: -60px;
+    margin-left: 545px;
+    float: left;
+}
+
+.add_marks_in1{
+    width: 506px;
+    height: 32px;
+    margin-top: -79px;
+    background: #dcdcdca8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ce5b09;
+    /*margin-left: 242px;*/
+}
+
+
+.add_marks_in3{
+    width: 120px;
+    height: 32px;
+    margin-top: -38px;
+    margin-left: 545px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ce5b09;
+}
+
+.add_marks_btn{
+    width: 100px;
+    height: 36px;
+    margin-top: -93px;
+    margin-left: 794px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    background: #68b9ca;
+    border-radius: 3px;
+    padding: 5px;
+    background: #43a7bc;
+    color: white;
+}
+
+.add_marks_btn:hover{
+	background:#68b9ca;
+}
+
+
+
+.product_name_input{
+	height:30px;
+	width:400px;
+	margin-left:-90px;
+}
+
+.product_price_input{
+	height:30px;
+	margin-left:10px;
+}
+
+
+.btnUpdate {
+    border-radius: 5px;
+    padding: 5px;
+    background: #10a90e;
+    color: white;
+}
+
+.btnUpdate:hover {
+
+    background: #2e6b07;
+
+}
+
+
+/*..........................charge_customer_details.php page CSS...........................*/
+
+
+.rbox1{
+    width: 668px;
+    height: 153px;
+    float: left;	/*To remove block level property of "div"*/
+    margin-left: -20px;
+}
+
+.rbox2{
+	width: 668px;
+    height: 304px;
+    margin-left: 485px;
+}
+
+.desired_result1{
+	border-collapse: collapse;
+    width: 500px;
+    height: 444px;
+    margin-left: 237px;
+    /*margin-top: -664px;*/
+    text-align: center;
+    float: left;
+    color: black;
+    background: #ccf3b485;
+}
+
+.desired_result2{
+    border-collapse: collapse;
+    width: 500px;
+    height: 444px;
+    text-align: center;
+    /*margin-top: -665px;*/
+    margin-left: 246px;
+    color: black;
+    background: #ccf3b485;
+}
+.table_row_style{
+	    background: #00ff9561;
+}
+
+
+
+
+
+
+
